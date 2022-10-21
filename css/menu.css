@@ -1,0 +1,82 @@
+.main-nav {
+  position: fixed;
+  z-index: 99;
+}
+.nav-bar {
+  padding: 20px;
+  display: flex;
+  color: #484848;
+  cursor: pointer;
+  font-size: 1.5em;
+  width: 100%;
+  justify-content: flex-end;
+}
+.fa-solid {
+  margin-left: 10px;
+}
+.menu,
+.submenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.menu {
+  position: relative;
+  width: 1440px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 0px -1px 15px 2px rgba(72, 72, 72, 0.5);
+  border-radius: 0px 0px 20px 20px;
+}
+.menu__link {
+  display: flex;
+
+  padding: 20px;
+  color: #484848;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+.menu__link:hover {
+  background: rgb(219, 219, 219);
+}
+.submenu .menu__link:hover {
+  background: rgb(219, 219, 219);
+}
+.submenu {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+.submenu .menu__link {
+  background: #f2f2f2;
+  padding-left: 50px;
+}
+.mostrar {
+  margin-left: 0;
+}
+@media (min-width: 1024px) {
+  .nav-bar {
+    display: none;
+  }
+  .menu {
+    margin-left: 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .container-submenu {
+    position: relative;
+  }
+  .submenu {
+    position: absolute;
+    top: 60px;
+    width: 200px;
+    overflow: visible;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .container-submenu:hover .submenu {
+    opacity: 1;
+    visibility: visible;
+  }
+}
