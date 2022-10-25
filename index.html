@@ -8,67 +8,58 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
   <script src="https://unpkg.com/scrollreveal"></script>
   <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/menu.css">
   <title>Dental World</title>
 </head>
 
 <body>
-  <span class="nav-bar" id="btnMenu">MENU<i class="fa-solid fa-bars"></i></span>
-  <nav class="main-nav">
-    <ul class="menu" id="menu">
-      <a><img src="Logotipo_N1 Alan Cell.png" alt="logo"></a>
-      <li class="menu__item"><a href="" class="menu__link">INICIO</a></li>
-      <li class="menu__item"><a href="" class="menu__link">NOSOTROS</a></li>
-      <li class="menu__item container-submenu">
-        <a href="#" class="menu__link submenu-btn">PRODUCTOS <i class="fa-solid fa-chevron-down"></i></a>
-        <ul class="submenu">
-          <li class="menu__item"><a href="" class="menu__link">GASAS</a>
-          </li>
-          <li class="menu__item"><a href="" class="menu__link">MAQUINAS</a>
-          </li>
-          <li class="menu__item"><a href="" class="menu__link">COSA</a>
-          </li>
-          <li class="menu__item"><a href="" class="menu__link">COSA</a>
-          </li>
-        </ul>
-      </li>
-      <li class="menu__item"><a href="" class="menu__link">CONTACTANOS</a></li>
-    </ul>
-
-  </nav>
-  <div class="container">
+  <header class="header">
+    <nav class="nav">
+      <ul class="list">
+        <a class="logotipo" href="#" target="_parent" rel="noopener noreferrer">
+          <img src="/Imagenes/Logotipo_N1 Alan Cell.png" alt="Logotipo" srcset="">Dental World
+        </a>
+        <li class="elements"><a class="links" href="#" target="" rel="noopener noreferrer">Inicio</a></li>
+        <li class="elements"><a class="links" href="#" target="" rel="noopener noreferrer">Quienes Somos</a>
+        </li>
+        <li class="elements"><a class="links" href="#" target="" rel="noopener noreferrer">Productos</a></li>
+        <li class="elements"><a class="btn-contact" href="#" target="" rel="noopener noreferrer">Contáctanos</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
     <!-- Animacion -->
     <div id="particles-js">
+      <p class="text-banner">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repellendus laborum beatae?
+        Totam repellendus eum facilis quo necessitatibus earum, labore aperiam deserunt porro quia consequatur, in,
+        obcaecati similique cum beatae?
+      </p>
       <div class="rombos rombo-1"></div>
       <div class="rombos rombo-2"></div>
       <div class="rombos rombo-3"></div>
     </div>
-    <div>1</div>
-    <div>1</div>
-    <div>1</div>
-    <div>1</div>
-    <div>1</div>
-    <div>1</div>
-    <div>1</div>
-    <div>1</div>
-    <div>1</div>
-    <div>1</div>
-    <div>1</div>
-    <div>1</div>
-    <div>1</div>
-    <div>1</div>
-    <div>1</div>
-    <div>1</div>
-    <div>1</div>
-    <div>1</div>
-    <div>1</div>
-    <div>1</div>
-  </div>
+    <div class="about-us">
+      <h1 class="title">Quienes Somos</h1>
+      <p class="text-about-us">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repellendus laborum
+        beatae?
+        Totam repellendus eum facilis quo necessitatibus earum, labore aperiam deserunt porro quia consequatur, in,
+        obcaecati similique cum beatae?
+      </p>
+      <div class="rombo-about-us"></div>
+      <div class="rombo-about-us"></div>
+      <div class="rombo-about-us"></div>
+    </div>
+  </main>
+
   <script src="js/particulas.js"></script>
+  <script src="js/menu.js"></script>
   <script src="js/script.js" type="module"></script>
 </body>
 

@@ -1,82 +1,68 @@
-.main-nav {
-  position: fixed;
-  z-index: 99;
-}
-.nav-bar {
-  padding: 20px;
-  display: flex;
-  color: #484848;
-  cursor: pointer;
-  font-size: 1.5em;
-  width: 100%;
-  justify-content: flex-end;
-}
-.fa-solid {
-  margin-left: 10px;
-}
-.menu,
-.submenu {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.menu {
-  position: relative;
-  width: 1440px;
+.header {
   height: 100px;
+  width: 100%;
+  position: fixed;
+  z-index: 9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background: rgba(255, 255, 255, 0.55);
   box-shadow: 0px -1px 15px 2px rgba(72, 72, 72, 0.5);
   border-radius: 0px 0px 20px 20px;
+  padding: 0 5px;
 }
-.menu__link {
+.logotipo {
   display: flex;
-
-  padding: 20px;
-  color: #484848;
-  font-size: 1.2em;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: var(--text-color);
 }
-.menu__link:hover {
-  background: rgb(219, 219, 219);
+.logotipo:hover {
 }
-.submenu .menu__link:hover {
-  background: rgb(219, 219, 219);
+.nav {
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
 }
-.submenu {
-  height: 0;
-  overflow: hidden;
-  transition: all 0.3s;
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.submenu .menu__link {
-  background: #f2f2f2;
-  padding-left: 50px;
+.elements {
+  list-style: none;
 }
-.mostrar {
-  margin-left: 0;
+.links {
+  color: var(--text-color);
+  text-decoration: none;
+  padding: 20px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
 }
-@media (min-width: 1024px) {
-  .nav-bar {
-    display: none;
-  }
-  .menu {
-    margin-left: 0;
-    display: flex;
-    justify-content: space-evenly;
-  }
-  .container-submenu {
-    position: relative;
-  }
-  .submenu {
-    position: absolute;
-    top: 60px;
-    width: 200px;
-    overflow: visible;
-    z-index: 1000;
-    opacity: 0;
-    visibility: hidden;
-  }
-  .container-submenu:hover .submenu {
-    opacity: 1;
-    visibility: visible;
-  }
+.links:hover {
+  transition: all 0.5s ease;
+  cursor: pointer;
+  background-size: 100% 2px;
+  color: rgba(0, 0, 0, 0.295);
+}
+.btn-contact {
+  background: var(--primary-color);
+  color: var(--secundary-color);
+  border-radius: 20px;
+  text-decoration: none;
+  padding: 15px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+}
+.btn-contact:hover {
+  background: var(--hover-color);
 }

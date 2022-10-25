@@ -1,12 +1,20 @@
-/* @import-url ("particles.css"); */
+@import url("menu.css");
+@import url("quienes-somos.css");
 :root {
-  font-family: "Open Sans", sans-serif;
+  --text-color-dark: #484848;
+  --text-color-ligth: #eceff9;
+  --primary-color: #0554f2;
+  --hover-color: rgba(31, 105, 255, 0.9);
+  --secundary-color: #f2f2f2;
+  --menu-background: rgba(255, 255, 255, 0.55);
+  --box-color: rgba(72, 72, 72, 0.5);
 }
 * {
   margin: 0px;
   padding: 0px;
+  font-family: "Quicksand", sans-serif;
 }
-.container {
+.main {
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -19,6 +27,20 @@
   background-position: 50% 50%;
   background-attachment: fixed;
 }
+.text-banner {
+  position: absolute;
+  top: 250px;
+  left: 90px;
+  width: 500px;
+  background: rgba(242, 242, 242, 0.6);
+  color: var(--text-color-dark);
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+}
 .rombos {
   text-align: center;
   transform: rotate(45deg);
@@ -27,25 +49,27 @@
   border-radius: 42px;
   background-size: cover;
 }
+.rombos:hover {
+}
 .rombo-1 {
   position: absolute;
-  top: 20%;
-  left: 60%;
+  top: 115px;
+  left: 860px;
   width: 400px;
   height: 400px;
   background-image: url("https://images.unsplash.com/photo-1643660527072-47bd5735f721?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
 }
 .rombo-2 {
   position: absolute;
-  left: 43%;
+  left: 615px;
   width: 250px;
   height: 250px;
   background-image: url("https://images.unsplash.com/photo-1643660527072-47bd5735f721?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
 }
 .rombo-3 {
   position: absolute;
-  top: 53%;
-  left: 43%;
+  top: 375px;
+  left: 615px;
   width: 250px;
   height: 250px;
   background-image: url("https://images.unsplash.com/photo-1643660527072-47bd5735f721?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
