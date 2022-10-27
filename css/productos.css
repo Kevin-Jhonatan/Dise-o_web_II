@@ -1,0 +1,15 @@
+.products {
+  height: 636px;
+  background: red;
+  /* background: var(--secundary-color); */
+  display: flex;
+  flex-direction: row;
+}
+.container-rombo-product {
+}
+.rombo1-product {
+}
+.container-banner-product {
+}
+.text-products {
+}
