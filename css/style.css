@@ -20,6 +20,7 @@
   margin: 0px;
   padding: 0px;
   font-family: "Quicksand", sans-serif;
+  background: var(--secundary-color);
 }
 .main {
   max-width: 1440px;

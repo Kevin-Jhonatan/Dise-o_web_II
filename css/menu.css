@@ -11,6 +11,9 @@
   border-radius: 0px 0px 20px 20px;
   padding: 0 5px;
 }
+.image-logo {
+  background: transparent;
+}
 .logotipo {
   text-decoration: none;
   font-style: normal;
@@ -20,6 +23,7 @@
   color: var(--text-color);
   display: flex;
   align-items: center;
+  background: transparent;
 }
 .logotipo:hover {
 }
@@ -30,12 +34,15 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background: transparent;
 }
 .list {
   display: inline-flex;
+  background: transparent;
 }
 .elements {
   list-style: none;
+  background: transparent;
 }
 .links {
   color: var(--text-color);
@@ -45,6 +52,7 @@
   font-weight: 600;
   font-size: 24px;
   line-height: 30px;
+  background: transparent;
 }
 .links:hover {
   transition: all 0.5s ease;
