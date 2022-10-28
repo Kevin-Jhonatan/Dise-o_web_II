@@ -20,6 +20,7 @@
   line-height: 70px;
   letter-spacing: 0.05em;
   color: var(--primary-color);
+  text-align: center;
 }
 .text-seccions {
   font-style: normal;

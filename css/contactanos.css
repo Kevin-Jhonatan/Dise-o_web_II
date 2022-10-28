@@ -1,0 +1,121 @@
+.contact-us {
+  height: 636px;
+  background-color: var(--secundary-color);
+  display: flex;
+  flex-direction: row;
+}
+.container-form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.formulario {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 60%;
+  border: 1px solid rgba(72, 72, 72, 0.5);
+  align-self: center;
+  border-radius: 20px;
+  padding: 30px 0px;
+}
+.input {
+  width: 362px;
+  margin: 0 auto;
+  border: 2px solid var(--color-border-form);
+  border-radius: 20px;
+  height: 45px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  background: transparent;
+}
+.input::placeholder {
+  color: var(--color-placeholder);
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+}
+.input:focus {
+  color: var(--primary-color);
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  border-color: var(--menu-background);
+  box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset,
+    0 0 8px var(--color-placeholder);
+  outline: 0 none;
+}
+.text-area {
+  margin: 0 auto;
+  width: 362px;
+  border: 2px solid var(--color-border-form);
+  border-radius: 20px;
+  height: 128px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  background: transparent;
+}
+.text-area::placeholder {
+  color: var(--color-placeholder);
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+}
+.text-area:focus {
+  color: var(--primary-color);
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  border-color: var(--menu-background);
+  box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset,
+    0 0 8px var(--color-placeholder);
+  outline: 0 none;
+}
+.btn {
+  width: 50%;
+  margin: 0 auto;
+  background: var(--primary-color);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  border-radius: 20px;
+  color: var(--text-color-ligth);
+}
+.btn:hover {
+  transition: 0.05s;
+  background: var(--hover-color);
+}
+.container-rombo-contact-us {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rombo1-contact-us {
+  width: 450px;
+  height: 450px;
+  background-image: url("https://images.unsplash.com/photo-1643660527072-47bd5735f721?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+}

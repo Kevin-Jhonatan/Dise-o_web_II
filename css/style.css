@@ -1,6 +1,9 @@
 @import url("menu.css");
 @import url("quienes-somos.css");
 @import url("productos.css");
+@import url("sucursales.css");
+@import url("contactanos.css");
+@import url("pie-de-pagina.css");
 :root {
   --text-color-dark: #484848;
   --text-color-ligth: #eceff9;
@@ -9,6 +12,9 @@
   --secundary-color: #f2f2f2;
   --menu-background: rgba(255, 255, 255, 0.55);
   --box-color: rgba(72, 72, 72, 0.5);
+  --title-color-card: #363947;
+  --color-placeholder: rgba(72, 72, 72, 0.8);
+  --color-border-form: rgba(5, 84, 242, 0.6);
 }
 * {
   margin: 0px;
