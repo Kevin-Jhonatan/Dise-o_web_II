@@ -74,3 +74,38 @@
 .btn-contact:hover {
   background: var(--hover-color);
 }
+.list-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  max-height: 636px;
+  height: 500px;
+}
+.icon {
+  font-size: 25px;
+}
+@media only screen and (0px <= width < 320px) {
+}
+@media only screen and (min-width: 320px) {
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (max-width: 1024px) {
+  .list {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .icon {
+    display: none;
+  }
+  .list-mobile {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1440px) {
+}
